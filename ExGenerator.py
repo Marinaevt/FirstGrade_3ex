@@ -7,10 +7,10 @@ for i in range(numvar):
     fslv = open('Solve' + str(i) + '.py', 'w')
     fslvt = open('SolveTemplate.py', 'r')
     fchk = open('CheckFile.py', 'r')
-    mtype = random.randint(1, 2)
     typeex = random.randint(1, 4)
     ztype = random.randint(1, 2)
     mname = ['max(b1,..., bi)', 'min(b1,..., bi)']
+    mtype = random.randint(1, len(mname))
     fex.write(mname[mtype-1] + ', ')
     for line in fslvt:
         fslv.write(line)
