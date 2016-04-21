@@ -1,3 +1,11 @@
+import random
+
+def solve(dataset):
+    a = dataset.split()
+    arr = a[1:-1]
+    Y = a[-1]
+    arrborder = [arrborder for arrborder in arr if arrborder <= Y]
+    return(str(max(arrborder)))
 def generate():
     tests = []
     testarr = []
@@ -15,3 +23,8 @@ def generate():
         tests.append(' '.join(testarr))
         testarr = []
     return tests
+def check(reply, clue):
+    if reply == clue:
+        return 1
+    else:
+        return 0

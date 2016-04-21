@@ -1,0 +1,3 @@
+min(b1,..., bi), X < bi
+max(b1,..., bi), bi > 0
+max(b1,..., bi), bi <= Y

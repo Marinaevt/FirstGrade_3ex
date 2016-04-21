@@ -1,5 +1,3 @@
-import random
-
 def generate():
     tests = []
     testarr = []
@@ -11,7 +9,7 @@ def generate():
             el = random.randint(-1000, 1000)
             testarr.append(str(el) + '\n')
         x = random.randint(-1000, 1000)
-        while x > max(testarr):
+        while x > max([int(a) for a in testarr]):
             x = random.randint(-1000, 1000)
         testarr.append(str(x) + '\n')
         tests.append(' '.join(testarr))
