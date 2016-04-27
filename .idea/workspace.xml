@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd5304cd-8705-4488-a523-e018b2f76aea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeneratorFile_type1.py" afterPath="$PROJECT_DIR$/GeneratorFile_type1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeneratorFile_type2.py" afterPath="$PROJECT_DIR$/GeneratorFile_type2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeneratorFile_type4.py" afterPath="$PROJECT_DIR$/GeneratorFile_type4.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Solve0.py" afterPath="$PROJECT_DIR$/Solve0.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Solve1.py" afterPath="$PROJECT_DIR$/Solve1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Solve2.py" afterPath="$PROJECT_DIR$/Solve2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExGenerator.py" afterPath="$PROJECT_DIR$/ExGenerator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercise.txt" afterPath="$PROJECT_DIR$/exercise.txt" />
     </list>
     <ignored path="FirstGrade_3ex.iws" />
@@ -29,17 +24,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ExGenerator.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExGenerator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ExGenerator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solve0.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solve0.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Solve0.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -108,10 +103,8 @@
         <option value="$PROJECT_DIR$/11.py" />
         <option value="$PROJECT_DIR$/SolveFile_type1_1.py" />
         <option value="$PROJECT_DIR$/CheckFile.py" />
-        <option value="$PROJECT_DIR$/exercise.txt" />
         <option value="$PROJECT_DIR$/Solve.py" />
         <option value="$PROJECT_DIR$/SolveTemplate.py" />
-        <option value="$PROJECT_DIR$/ExGenerator.py" />
         <option value="$PROJECT_DIR$/GeneratorFile_type3.py" />
         <option value="$PROJECT_DIR$/Solve1.py" />
         <option value="$PROJECT_DIR$/GeneratorFile_type1.py" />
@@ -119,6 +112,8 @@
         <option value="$PROJECT_DIR$/Solve2.py" />
         <option value="$PROJECT_DIR$/GeneratorFile_type4.py" />
         <option value="$PROJECT_DIR$/Solve0.py" />
+        <option value="$PROJECT_DIR$/exercise.txt" />
+        <option value="$PROJECT_DIR$/ExGenerator.py" />
       </list>
     </option>
   </component>
@@ -653,14 +648,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../FirstGrade_1ex/1_ex_gen.py" />
-    <entry file="file://$PROJECT_DIR$/exercise.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Solve.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -725,18 +712,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExGenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Solve0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
           <folding />
         </state>
       </provider>

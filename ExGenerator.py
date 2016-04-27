@@ -18,7 +18,7 @@ for i in range(numvar):
     for line in fslvt:
         fslv.write(line)
     if typeex == 1:
-        znak = ['bi <= Y', 'bi < Y']
+        znak = ['bk <= Y', 'bk < Y']
         fslv.write('    arr = a[1:-1]\n')
         fslv.write('    Y = a[-1]\n')
         if ztype == 1:
@@ -27,7 +27,7 @@ for i in range(numvar):
             fslv.write('    arrborder = [arrborder for arrborder in arr if ((arrborder < Y)')
         fex.write(znak[ztype-1] + ' and ')
     elif typeex == 2:
-        znak = ['X <= bi', 'X < bi']
+        znak = ['X <= bk', 'X < bk']
         fslv.write('    arr = a[1:-1]\n')
         fslv.write('    X = a[-1]\n')
         if ztype == 1:
@@ -40,7 +40,7 @@ for i in range(numvar):
         fslv.write('    arr = a[1:-2]\n')
         fslv.write('    X = a[-2]\n')
         fslv.write('    Y = a[-1]\n')
-        znak = ['X < bi < Y', 'X < bi <= Y', 'X <= bi < Y', 'X <= bi <= Y']
+        znak = ['X < bk < Y', 'X < bk <= Y', 'X <= bk < Y', 'X <= bk <= Y']
         fslv.write('    arrborder = [arrborder for arrborder in arr if ')
         if ztype == 1:
             fslv.write('((arrborder > X) & (arrborder < Y)')
@@ -52,7 +52,7 @@ for i in range(numvar):
             fslv.write('((arrborder >= X) & (arrborder <= Y)')
         fex.write(znak[ztype-1] + ' and ')
     else:
-        znak = ['bi < 0', 'bi > 0']
+        znak = ['bk < 0', 'bk > 0']
         fslv.write('    arr = a[1:]\n')
         fslv.write('    arrborder = [arrborder for arrborder in arr if ')
         if ztype == 1:
