@@ -5,7 +5,7 @@ def solve(dataset):
     arr = a[1:-2]
     X = a[-2]
     Y = a[-1]
-    arrborder = [arrborder for arrborder in arr if arrborder > X & arrborder <= Y]
+    arrborder = [arrborder for arrborder in arr if arrborder > X & arrborder <= Y & arrborder % 2 != 0]
     return(str(min(arrborder)))
 def generate():
     tests = []
