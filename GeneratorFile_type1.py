@@ -2,6 +2,11 @@ def generate():
     tests = []
     testarr = []
     numtest = 100
+    flag1 = 0
+    flag2 = 0
+    flag3 = 0
+    flag7 = 0
+    flag13 = 0
     for i in range(numtest):
         numel = random.randint(5, 100)
         testarr.append(str(numel) + '\n')

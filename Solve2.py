@@ -6,8 +6,8 @@ def solve(dataset):
     arr = a[1:-2]
     X = a[-2]
     Y = a[-1]
-    arrborder = [arrborder for arrborder in arr if ((arrborder >= X) & (arrborder < Y) & (arrborder%13==0))]
-    return(str(min(arrborder)))
+    arrborder = [arrborder for arrborder in arr if ((arrborder >= X) & (arrborder <= Y) & (arrborder%13==0))]
+    return(str(float(sum(arrborder)/len(arrborder))))
 def generate():
     tests = []
     testarr = []

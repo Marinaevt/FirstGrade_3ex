@@ -4,16 +4,23 @@ def solve(dataset):
     a = dataset.split()
     a = map(int, a)
     arr = a[1:]
-    arrborder = [arrborder for arrborder in arr if ((arrborder < 0) & (arrborder%2!=0))]
-    return(str(min(arrborder)))
+    arrborder = [arrborder for arrborder in arr if ((arrborder > 0) & (arrborder%7==0))]
+    print(arrborder)
+    print(str(max(arrborder)))
+    return(str(max(arrborder)))
 def generate():
     tests = []
     testarr = []
     numtest = 100
+    flag1 = 0
+    flag2 = 0
+    flag3 = 0
+    flag7 = 0
+    flag13 = 0
     for i in range(numtest):
         numel = random.randint(5, 100)
         testarr.append(str(numel) + '\n')
-        while min(testarr) > 0 | max(testarr) < 0:
+        while ((min([int(a) for a in testarr]) > 0) | (max([int(b) for b in testarr]) < 0)):
             for j in range(numel):
                 el = random.randint(-1000, 1000)
                 if flag1 == 0:
@@ -42,9 +49,9 @@ def generate():
                     testarr.append(str(el) + '\n')
                     flag13 = 1
                 testarr.append(str(el) + '\n')
-            if min([int(a) for a in testarr]) > 0 | max([int(b) for b in testarr]) < 0:
-                testarr = []
-                testarr.append(str(numel) + '\n')
+            #if min([int(a) for a in testarr]) > 0 | max([int(b) for b in testarr]) < 0:
+            #    testarr = []
+            #    testarr.append(str(numel) + '\n')
         tests.append(' '.join(testarr))
         testarr = []
     return tests
@@ -53,3 +60,6 @@ def check(reply, clue):
         return 1
     else:
         return 0
+
+a = generate()
+solve(a[0])

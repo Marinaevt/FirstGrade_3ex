@@ -1,3 +1,3 @@
-min(bi,..., bj), when bi < 0 and bk mod 2 != 0
-min(bi,..., bj), when X <= bi < Y and bk mod 3 = 0
-min(bi,..., bj), when X <= bi < Y and bk mod 13 = 0
+max(bi,..., bj), when bi > 0 and bk mod 7 = 0
+max(bi,..., bj), when X <= bi < Y and bk mod 2 = 0
+mean(bi, ..., bj), when X <= bi <= Y and bk mod 13 = 0

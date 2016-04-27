@@ -6,10 +6,8 @@ def solve(dataset):
     arr = a[1:-2]
     X = a[-2]
     Y = a[-1]
-    arrborder = [arrborder for arrborder in arr if ((arrborder >= X) & (arrborder < Y) & (arrborder%3==0))]
-    print(arrborder)
-    print(str(min(arrborder)))
-    return(str(min(arrborder)))
+    arrborder = [arrborder for arrborder in arr if ((arrborder >= X) & (arrborder < Y) & (arrborder%2==0))]
+    return(str(max(arrborder)))
 def generate():
     tests = []
     testarr = []
@@ -65,6 +63,3 @@ def check(reply, clue):
         return 1
     else:
         return 0
-
-a = generate()
-solve(a[0])
